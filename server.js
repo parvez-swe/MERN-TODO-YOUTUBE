@@ -19,6 +19,10 @@ mongoose
   .then(() => console.log("conected"))
   .catch((err) => console.log(err));
 
+// router.post("/get", async (req, res) => {
+//   res.json({ message: "Yes It working!" });
+// });
+
 // app.use(routes);
 
 app.use("/api/todo", routes);
